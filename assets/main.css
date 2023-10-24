@@ -1,0 +1,59 @@
+
+
+/* .active{
+    background-color: #9C254D;
+    transform: scale(1.2);
+} */
+
+.active {
+    animation-name: cssAnimation;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+
+    }
+
+
+
+
+@keyframes cssAnimation {
+    from {
+      transform: rotate(0deg) scale(1) ;
+    }
+    to {
+      transform: rotate(0deg) scale(2) ;
+    }
+}
+
+button{
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.yeniElementClassi{
+    background-color: #F2BED1;
+    width: 100px;
+    height: 100px;
+    /* padding: 50px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reng{
+    color: aqua;
+}
+
+.xett{
+    text-decoration:line-through;
+}
